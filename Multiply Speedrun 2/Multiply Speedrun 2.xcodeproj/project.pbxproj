@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EEF3480279F5C070043A4C4 /* Multiply_Speedrun_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF347F279F5C070043A4C4 /* Multiply_Speedrun_2App.swift */; };
+		8EEF3482279F5C070043A4C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF3481279F5C070043A4C4 /* ContentView.swift */; };
+		8EEF3484279F5C070043A4C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEF3483279F5C070043A4C4 /* Assets.xcassets */; };
+		8EEF3487279F5C070043A4C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEF3486279F5C070043A4C4 /* Preview Assets.xcassets */; };
+		8EEF3491279F5C080043A4C4 /* Multiply_Speedrun_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF3490279F5C080043A4C4 /* Multiply_Speedrun_2Tests.swift */; };
+		8EEF349B279F5C080043A4C4 /* Multiply_Speedrun_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF349A279F5C080043A4C4 /* Multiply_Speedrun_2UITests.swift */; };
+		8EEF349D279F5C080043A4C4 /* Multiply_Speedrun_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF349C279F5C080043A4C4 /* Multiply_Speedrun_2UITestsLaunchTests.swift */; };
+		8EEF34AD279F5CA50043A4C4 /* ChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF34AC279F5CA50043A4C4 /* ChoiceView.swift */; };
+		8EEF34AF279F5CD80043A4C4 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF34AE279F5CD80043A4C4 /* GameView.swift */; };
+		8EEF34B1279F5CFA0043A4C4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF34B0279F5CFA0043A4C4 /* MainView.swift */; };
+		8EEF34B7279F5D7E0043A4C4 /* ProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF34B6279F5D7E0043A4C4 /* ProblemView.swift */; };
+		8EEF34B9279F5D9D0043A4C4 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF34B8279F5D9D0043A4C4 /* ResultView.swift */; };
+		8EEF34BD279F5DCF0043A4C4 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF34BC279F5DCF0043A4C4 /* ScoreView.swift */; };
+		8EEF34BF279F5DED0043A4C4 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF34BE279F5DED0043A4C4 /* SummaryView.swift */; };
+		8EEF34C1279F5E040043A4C4 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF34C0279F5E040043A4C4 /* TitleView.swift */; };
+		8EEF34C3279F5E5B0043A4C4 /* ArithmeticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF34C2279F5E5B0043A4C4 /* ArithmeticModel.swift */; };
+		8EEF34C5279F5EA10043A4C4 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF34C4279F5EA10043A4C4 /* GameManager.swift */; };
+		8EEF34CC279F5FDF0043A4C4 /* AllButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF34CB279F5FDF0043A4C4 /* AllButtonStyle.swift */; };
+		8EEF34CE279F5FFD0043A4C4 /* ViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF34CD279F5FFD0043A4C4 /* ViewConstants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EEF348D279F5C080043A4C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EEF3474279F5C070043A4C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EEF347B279F5C070043A4C4;
+			remoteInfo = "Multiply Speedrun 2";
+		};
+		8EEF3497279F5C080043A4C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EEF3474279F5C070043A4C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EEF347B279F5C070043A4C4;
+			remoteInfo = "Multiply Speedrun 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EEF347C279F5C070043A4C4 /* Multiply Speedrun 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multiply Speedrun 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEF347F279F5C070043A4C4 /* Multiply_Speedrun_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply_Speedrun_2App.swift; sourceTree = "<group>"; };
+		8EEF3481279F5C070043A4C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EEF3483279F5C070043A4C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EEF3486279F5C070043A4C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EEF348C279F5C080043A4C4 /* Multiply Speedrun 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiply Speedrun 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEF3490279F5C080043A4C4 /* Multiply_Speedrun_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply_Speedrun_2Tests.swift; sourceTree = "<group>"; };
+		8EEF3496279F5C080043A4C4 /* Multiply Speedrun 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiply Speedrun 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEF349A279F5C080043A4C4 /* Multiply_Speedrun_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply_Speedrun_2UITests.swift; sourceTree = "<group>"; };
+		8EEF349C279F5C080043A4C4 /* Multiply_Speedrun_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply_Speedrun_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8EEF34AC279F5CA50043A4C4 /* ChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceView.swift; sourceTree = "<group>"; };
+		8EEF34AE279F5CD80043A4C4 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		8EEF34B0279F5CFA0043A4C4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8EEF34B6279F5D7E0043A4C4 /* ProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemView.swift; sourceTree = "<group>"; };
+		8EEF34B8279F5D9D0043A4C4 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		8EEF34BC279F5DCF0043A4C4 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		8EEF34BE279F5DED0043A4C4 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		8EEF34C0279F5E040043A4C4 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		8EEF34C2279F5E5B0043A4C4 /* ArithmeticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticModel.swift; sourceTree = "<group>"; };
+		8EEF34C4279F5EA10043A4C4 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		8EEF34CB279F5FDF0043A4C4 /* AllButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllButtonStyle.swift; sourceTree = "<group>"; };
+		8EEF34CD279F5FFD0043A4C4 /* ViewConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConstants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EEF3479279F5C070043A4C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF3489279F5C080043A4C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF3493279F5C080043A4C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E3A89ED27A1EC2100EF0F87 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF34C4279F5EA10043A4C4 /* GameManager.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		8EEF3473279F5C070043A4C4 = {
+			isa = PBXGroup;
+			children = (
+				8EEF347E279F5C070043A4C4 /* Multiply Speedrun 2 */,
+				8EEF348F279F5C080043A4C4 /* Multiply Speedrun 2Tests */,
+				8EEF3499279F5C080043A4C4 /* Multiply Speedrun 2UITests */,
+				8EEF347D279F5C070043A4C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EEF347D279F5C070043A4C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF347C279F5C070043A4C4 /* Multiply Speedrun 2.app */,
+				8EEF348C279F5C080043A4C4 /* Multiply Speedrun 2Tests.xctest */,
+				8EEF3496279F5C080043A4C4 /* Multiply Speedrun 2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EEF347E279F5C070043A4C4 /* Multiply Speedrun 2 */ = {
+			isa = PBXGroup;
+			children = (
+				8E3A89ED27A1EC2100EF0F87 /* View Models */,
+				8EEF34AA279F5C220043A4C4 /* Models */,
+				8EEF34A9279F5C1C0043A4C4 /* Views */,
+				8EEF347F279F5C070043A4C4 /* Multiply_Speedrun_2App.swift */,
+				8EEF3483279F5C070043A4C4 /* Assets.xcassets */,
+				8EEF3485279F5C070043A4C4 /* Preview Content */,
+			);
+			path = "Multiply Speedrun 2";
+			sourceTree = "<group>";
+		};
+		8EEF3485279F5C070043A4C4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF3486279F5C070043A4C4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EEF348F279F5C080043A4C4 /* Multiply Speedrun 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF3490279F5C080043A4C4 /* Multiply_Speedrun_2Tests.swift */,
+			);
+			path = "Multiply Speedrun 2Tests";
+			sourceTree = "<group>";
+		};
+		8EEF3499279F5C080043A4C4 /* Multiply Speedrun 2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF349A279F5C080043A4C4 /* Multiply_Speedrun_2UITests.swift */,
+				8EEF349C279F5C080043A4C4 /* Multiply_Speedrun_2UITestsLaunchTests.swift */,
+			);
+			path = "Multiply Speedrun 2UITests";
+			sourceTree = "<group>";
+		};
+		8EEF34A9279F5C1C0043A4C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF34CB279F5FDF0043A4C4 /* AllButtonStyle.swift */,
+				8EEF34CD279F5FFD0043A4C4 /* ViewConstants.swift */,
+				8EEF3481279F5C070043A4C4 /* ContentView.swift */,
+				8EEF34AC279F5CA50043A4C4 /* ChoiceView.swift */,
+				8EEF34AE279F5CD80043A4C4 /* GameView.swift */,
+				8EEF34B0279F5CFA0043A4C4 /* MainView.swift */,
+				8EEF34B6279F5D7E0043A4C4 /* ProblemView.swift */,
+				8EEF34B8279F5D9D0043A4C4 /* ResultView.swift */,
+				8EEF34BC279F5DCF0043A4C4 /* ScoreView.swift */,
+				8EEF34BE279F5DED0043A4C4 /* SummaryView.swift */,
+				8EEF34C0279F5E040043A4C4 /* TitleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8EEF34AA279F5C220043A4C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF34C2279F5E5B0043A4C4 /* ArithmeticModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EEF347B279F5C070043A4C4 /* Multiply Speedrun 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EEF34A0279F5C080043A4C4 /* Build configuration list for PBXNativeTarget "Multiply Speedrun 2" */;
+			buildPhases = (
+				8EEF3478279F5C070043A4C4 /* Sources */,
+				8EEF3479279F5C070043A4C4 /* Frameworks */,
+				8EEF347A279F5C070043A4C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multiply Speedrun 2";
+			productName = "Multiply Speedrun 2";
+			productReference = 8EEF347C279F5C070043A4C4 /* Multiply Speedrun 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EEF348B279F5C080043A4C4 /* Multiply Speedrun 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EEF34A3279F5C080043A4C4 /* Build configuration list for PBXNativeTarget "Multiply Speedrun 2Tests" */;
+			buildPhases = (
+				8EEF3488279F5C080043A4C4 /* Sources */,
+				8EEF3489279F5C080043A4C4 /* Frameworks */,
+				8EEF348A279F5C080043A4C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EEF348E279F5C080043A4C4 /* PBXTargetDependency */,
+			);
+			name = "Multiply Speedrun 2Tests";
+			productName = "Multiply Speedrun 2Tests";
+			productReference = 8EEF348C279F5C080043A4C4 /* Multiply Speedrun 2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EEF3495279F5C080043A4C4 /* Multiply Speedrun 2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EEF34A6279F5C080043A4C4 /* Build configuration list for PBXNativeTarget "Multiply Speedrun 2UITests" */;
+			buildPhases = (
+				8EEF3492279F5C080043A4C4 /* Sources */,
+				8EEF3493279F5C080043A4C4 /* Frameworks */,
+				8EEF3494279F5C080043A4C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EEF3498279F5C080043A4C4 /* PBXTargetDependency */,
+			);
+			name = "Multiply Speedrun 2UITests";
+			productName = "Multiply Speedrun 2UITests";
+			productReference = 8EEF3496279F5C080043A4C4 /* Multiply Speedrun 2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EEF3474279F5C070043A4C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8EEF347B279F5C070043A4C4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8EEF348B279F5C080043A4C4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8EEF347B279F5C070043A4C4;
+					};
+					8EEF3495279F5C080043A4C4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8EEF347B279F5C070043A4C4;
+					};
+				};
+			};
+			buildConfigurationList = 8EEF3477279F5C070043A4C4 /* Build configuration list for PBXProject "Multiply Speedrun 2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EEF3473279F5C070043A4C4;
+			productRefGroup = 8EEF347D279F5C070043A4C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EEF347B279F5C070043A4C4 /* Multiply Speedrun 2 */,
+				8EEF348B279F5C080043A4C4 /* Multiply Speedrun 2Tests */,
+				8EEF3495279F5C080043A4C4 /* Multiply Speedrun 2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EEF347A279F5C070043A4C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEF3487279F5C070043A4C4 /* Preview Assets.xcassets in Resources */,
+				8EEF3484279F5C070043A4C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF348A279F5C080043A4C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF3494279F5C080043A4C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EEF3478279F5C070043A4C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEF3482279F5C070043A4C4 /* ContentView.swift in Sources */,
+				8EEF34AD279F5CA50043A4C4 /* ChoiceView.swift in Sources */,
+				8EEF34B9279F5D9D0043A4C4 /* ResultView.swift in Sources */,
+				8EEF34CC279F5FDF0043A4C4 /* AllButtonStyle.swift in Sources */,
+				8EEF34AF279F5CD80043A4C4 /* GameView.swift in Sources */,
+				8EEF34B1279F5CFA0043A4C4 /* MainView.swift in Sources */,
+				8EEF3480279F5C070043A4C4 /* Multiply_Speedrun_2App.swift in Sources */,
+				8EEF34C3279F5E5B0043A4C4 /* ArithmeticModel.swift in Sources */,
+				8EEF34CE279F5FFD0043A4C4 /* ViewConstants.swift in Sources */,
+				8EEF34B7279F5D7E0043A4C4 /* ProblemView.swift in Sources */,
+				8EEF34BD279F5DCF0043A4C4 /* ScoreView.swift in Sources */,
+				8EEF34C5279F5EA10043A4C4 /* GameManager.swift in Sources */,
+				8EEF34BF279F5DED0043A4C4 /* SummaryView.swift in Sources */,
+				8EEF34C1279F5E040043A4C4 /* TitleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF3488279F5C080043A4C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEF3491279F5C080043A4C4 /* Multiply_Speedrun_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF3492279F5C080043A4C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEF349B279F5C080043A4C4 /* Multiply_Speedrun_2UITests.swift in Sources */,
+				8EEF349D279F5C080043A4C4 /* Multiply_Speedrun_2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EEF348E279F5C080043A4C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EEF347B279F5C070043A4C4 /* Multiply Speedrun 2 */;
+			targetProxy = 8EEF348D279F5C080043A4C4 /* PBXContainerItemProxy */;
+		};
+		8EEF3498279F5C080043A4C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EEF347B279F5C070043A4C4 /* Multiply Speedrun 2 */;
+			targetProxy = 8EEF3497279F5C080043A4C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8EEF349E279F5C080043A4C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EEF349F279F5C080043A4C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EEF34A1279F5C080043A4C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Multiply Speedrun 2/Preview Content\"";
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.Multiply-Speedrun-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EEF34A2279F5C080043A4C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Multiply Speedrun 2/Preview Content\"";
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.Multiply-Speedrun-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EEF34A4279F5C080043A4C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.Multiply-Speedrun-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multiply Speedrun 2.app/Multiply Speedrun 2";
+			};
+			name = Debug;
+		};
+		8EEF34A5279F5C080043A4C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.Multiply-Speedrun-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multiply Speedrun 2.app/Multiply Speedrun 2";
+			};
+			name = Release;
+		};
+		8EEF34A7279F5C080043A4C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.Multiply-Speedrun-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Multiply Speedrun 2";
+			};
+			name = Debug;
+		};
+		8EEF34A8279F5C080043A4C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.Multiply-Speedrun-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Multiply Speedrun 2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EEF3477279F5C070043A4C4 /* Build configuration list for PBXProject "Multiply Speedrun 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EEF349E279F5C080043A4C4 /* Debug */,
+				8EEF349F279F5C080043A4C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EEF34A0279F5C080043A4C4 /* Build configuration list for PBXNativeTarget "Multiply Speedrun 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EEF34A1279F5C080043A4C4 /* Debug */,
+				8EEF34A2279F5C080043A4C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EEF34A3279F5C080043A4C4 /* Build configuration list for PBXNativeTarget "Multiply Speedrun 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EEF34A4279F5C080043A4C4 /* Debug */,
+				8EEF34A5279F5C080043A4C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EEF34A6279F5C080043A4C4 /* Build configuration list for PBXNativeTarget "Multiply Speedrun 2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EEF34A7279F5C080043A4C4 /* Debug */,
+				8EEF34A8279F5C080043A4C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EEF3474279F5C070043A4C4 /* Project object */;
+}

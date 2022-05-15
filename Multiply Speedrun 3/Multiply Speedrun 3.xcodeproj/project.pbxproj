@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E6E2A7327A970440009DCE1 /* ResetButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E2A7227A970440009DCE1 /* ResetButtonView.swift */; };
+		8EF8CC5E27A75A23009706B1 /* Multiply_Speedrun_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CC5D27A75A23009706B1 /* Multiply_Speedrun_3App.swift */; };
+		8EF8CC6027A75A23009706B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CC5F27A75A23009706B1 /* ContentView.swift */; };
+		8EF8CC6227A75A24009706B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8CC6127A75A24009706B1 /* Assets.xcassets */; };
+		8EF8CC6527A75A24009706B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8CC6427A75A24009706B1 /* Preview Assets.xcassets */; };
+		8EF8CC6F27A75A24009706B1 /* Multiply_Speedrun_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CC6E27A75A24009706B1 /* Multiply_Speedrun_3Tests.swift */; };
+		8EF8CC7927A75A24009706B1 /* Multiply_Speedrun_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CC7827A75A24009706B1 /* Multiply_Speedrun_3UITests.swift */; };
+		8EF8CC7B27A75A24009706B1 /* Multiply_Speedrun_3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CC7A27A75A24009706B1 /* Multiply_Speedrun_3UITestsLaunchTests.swift */; };
+		8EF8CC8B27A75B54009706B1 /* ArithmeticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CC8A27A75B54009706B1 /* ArithmeticModel.swift */; };
+		8EF8CC8D27A75B88009706B1 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CC8C27A75B88009706B1 /* GameManager.swift */; };
+		8EF8CC8F27A75BCC009706B1 /* ViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CC8E27A75BCC009706B1 /* ViewConstants.swift */; };
+		8EF8CC9127A75C2C009706B1 /* AllButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CC9027A75C2C009706B1 /* AllButtonStyle.swift */; };
+		8EF8CC9327A75C53009706B1 /* ChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CC9227A75C53009706B1 /* ChoiceView.swift */; };
+		8EF8CC9527A75C76009706B1 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CC9427A75C76009706B1 /* GameView.swift */; };
+		8EF8CC9727A75C96009706B1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CC9627A75C96009706B1 /* MainView.swift */; };
+		8EF8CC9927A75CE8009706B1 /* ProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CC9827A75CE8009706B1 /* ProblemView.swift */; };
+		8EF8CC9B27A75D03009706B1 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CC9A27A75D03009706B1 /* ResultView.swift */; };
+		8EF8CC9D27A75D18009706B1 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CC9C27A75D18009706B1 /* ScoreView.swift */; };
+		8EF8CC9F27A75D33009706B1 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CC9E27A75D33009706B1 /* SummaryView.swift */; };
+		8EF8CCA127A75D60009706B1 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CCA027A75D60009706B1 /* TitleView.swift */; };
+		8EF8CCA327A75EC8009706B1 /* PreferenceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CCA227A75EC8009706B1 /* PreferenceModel.swift */; };
+		8EF8CCA527A77E5E009706B1 /* PreferenceButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CCA427A77E5E009706B1 /* PreferenceButtonView.swift */; };
+		8EF8CCA727A77EAF009706B1 /* PreferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8CCA627A77EAF009706B1 /* PreferenceView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EF8CC6B27A75A24009706B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EF8CC5227A75A23009706B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EF8CC5927A75A23009706B1;
+			remoteInfo = "Multiply Speedrun 3";
+		};
+		8EF8CC7527A75A24009706B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EF8CC5227A75A23009706B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EF8CC5927A75A23009706B1;
+			remoteInfo = "Multiply Speedrun 3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E6E2A7227A970440009DCE1 /* ResetButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetButtonView.swift; sourceTree = "<group>"; };
+		8EF8CC5A27A75A23009706B1 /* Multiply Speedrun 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multiply Speedrun 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF8CC5D27A75A23009706B1 /* Multiply_Speedrun_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply_Speedrun_3App.swift; sourceTree = "<group>"; };
+		8EF8CC5F27A75A23009706B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EF8CC6127A75A24009706B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EF8CC6427A75A24009706B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EF8CC6A27A75A24009706B1 /* Multiply Speedrun 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiply Speedrun 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF8CC6E27A75A24009706B1 /* Multiply_Speedrun_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply_Speedrun_3Tests.swift; sourceTree = "<group>"; };
+		8EF8CC7427A75A24009706B1 /* Multiply Speedrun 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiply Speedrun 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF8CC7827A75A24009706B1 /* Multiply_Speedrun_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply_Speedrun_3UITests.swift; sourceTree = "<group>"; };
+		8EF8CC7A27A75A24009706B1 /* Multiply_Speedrun_3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply_Speedrun_3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8EF8CC8A27A75B54009706B1 /* ArithmeticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticModel.swift; sourceTree = "<group>"; };
+		8EF8CC8C27A75B88009706B1 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		8EF8CC8E27A75BCC009706B1 /* ViewConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConstants.swift; sourceTree = "<group>"; };
+		8EF8CC9027A75C2C009706B1 /* AllButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllButtonStyle.swift; sourceTree = "<group>"; };
+		8EF8CC9227A75C53009706B1 /* ChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceView.swift; sourceTree = "<group>"; };
+		8EF8CC9427A75C76009706B1 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		8EF8CC9627A75C96009706B1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8EF8CC9827A75CE8009706B1 /* ProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemView.swift; sourceTree = "<group>"; };
+		8EF8CC9A27A75D03009706B1 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		8EF8CC9C27A75D18009706B1 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		8EF8CC9E27A75D33009706B1 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		8EF8CCA027A75D60009706B1 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		8EF8CCA227A75EC8009706B1 /* PreferenceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceModel.swift; sourceTree = "<group>"; };
+		8EF8CCA427A77E5E009706B1 /* PreferenceButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceButtonView.swift; sourceTree = "<group>"; };
+		8EF8CCA627A77EAF009706B1 /* PreferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EF8CC5727A75A23009706B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF8CC6727A75A24009706B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF8CC7127A75A24009706B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EF8CC5127A75A23009706B1 = {
+			isa = PBXGroup;
+			children = (
+				8EF8CC5C27A75A23009706B1 /* Multiply Speedrun 3 */,
+				8EF8CC6D27A75A24009706B1 /* Multiply Speedrun 3Tests */,
+				8EF8CC7727A75A24009706B1 /* Multiply Speedrun 3UITests */,
+				8EF8CC5B27A75A23009706B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EF8CC5B27A75A23009706B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EF8CC5A27A75A23009706B1 /* Multiply Speedrun 3.app */,
+				8EF8CC6A27A75A24009706B1 /* Multiply Speedrun 3Tests.xctest */,
+				8EF8CC7427A75A24009706B1 /* Multiply Speedrun 3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EF8CC5C27A75A23009706B1 /* Multiply Speedrun 3 */ = {
+			isa = PBXGroup;
+			children = (
+				8EF8CC8927A75A39009706B1 /* Model */,
+				8EF8CC8827A75A33009706B1 /* View Model */,
+				8EF8CC8727A75A2C009706B1 /* View */,
+				8EF8CC5D27A75A23009706B1 /* Multiply_Speedrun_3App.swift */,
+				8EF8CC6127A75A24009706B1 /* Assets.xcassets */,
+				8EF8CC6327A75A24009706B1 /* Preview Content */,
+			);
+			path = "Multiply Speedrun 3";
+			sourceTree = "<group>";
+		};
+		8EF8CC6327A75A24009706B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8EF8CC6427A75A24009706B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EF8CC6D27A75A24009706B1 /* Multiply Speedrun 3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8EF8CC6E27A75A24009706B1 /* Multiply_Speedrun_3Tests.swift */,
+			);
+			path = "Multiply Speedrun 3Tests";
+			sourceTree = "<group>";
+		};
+		8EF8CC7727A75A24009706B1 /* Multiply Speedrun 3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EF8CC7827A75A24009706B1 /* Multiply_Speedrun_3UITests.swift */,
+				8EF8CC7A27A75A24009706B1 /* Multiply_Speedrun_3UITestsLaunchTests.swift */,
+			);
+			path = "Multiply Speedrun 3UITests";
+			sourceTree = "<group>";
+		};
+		8EF8CC8727A75A2C009706B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8EF8CC5F27A75A23009706B1 /* ContentView.swift */,
+				8EF8CC8E27A75BCC009706B1 /* ViewConstants.swift */,
+				8EF8CC9027A75C2C009706B1 /* AllButtonStyle.swift */,
+				8EF8CC9227A75C53009706B1 /* ChoiceView.swift */,
+				8EF8CC9427A75C76009706B1 /* GameView.swift */,
+				8EF8CC9627A75C96009706B1 /* MainView.swift */,
+				8EF8CC9827A75CE8009706B1 /* ProblemView.swift */,
+				8EF8CC9A27A75D03009706B1 /* ResultView.swift */,
+				8EF8CC9C27A75D18009706B1 /* ScoreView.swift */,
+				8EF8CC9E27A75D33009706B1 /* SummaryView.swift */,
+				8EF8CCA027A75D60009706B1 /* TitleView.swift */,
+				8EF8CCA427A77E5E009706B1 /* PreferenceButtonView.swift */,
+				8EF8CCA627A77EAF009706B1 /* PreferenceView.swift */,
+				8E6E2A7227A970440009DCE1 /* ResetButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8EF8CC8827A75A33009706B1 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				8EF8CC8C27A75B88009706B1 /* GameManager.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		8EF8CC8927A75A39009706B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8EF8CC8A27A75B54009706B1 /* ArithmeticModel.swift */,
+				8EF8CCA227A75EC8009706B1 /* PreferenceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EF8CC5927A75A23009706B1 /* Multiply Speedrun 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EF8CC7E27A75A24009706B1 /* Build configuration list for PBXNativeTarget "Multiply Speedrun 3" */;
+			buildPhases = (
+				8EF8CC5627A75A23009706B1 /* Sources */,
+				8EF8CC5727A75A23009706B1 /* Frameworks */,
+				8EF8CC5827A75A23009706B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multiply Speedrun 3";
+			productName = "Multiply Speedrun 3";
+			productReference = 8EF8CC5A27A75A23009706B1 /* Multiply Speedrun 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EF8CC6927A75A24009706B1 /* Multiply Speedrun 3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EF8CC8127A75A24009706B1 /* Build configuration list for PBXNativeTarget "Multiply Speedrun 3Tests" */;
+			buildPhases = (
+				8EF8CC6627A75A24009706B1 /* Sources */,
+				8EF8CC6727A75A24009706B1 /* Frameworks */,
+				8EF8CC6827A75A24009706B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EF8CC6C27A75A24009706B1 /* PBXTargetDependency */,
+			);
+			name = "Multiply Speedrun 3Tests";
+			productName = "Multiply Speedrun 3Tests";
+			productReference = 8EF8CC6A27A75A24009706B1 /* Multiply Speedrun 3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EF8CC7327A75A24009706B1 /* Multiply Speedrun 3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EF8CC8427A75A24009706B1 /* Build configuration list for PBXNativeTarget "Multiply Speedrun 3UITests" */;
+			buildPhases = (
+				8EF8CC7027A75A24009706B1 /* Sources */,
+				8EF8CC7127A75A24009706B1 /* Frameworks */,
+				8EF8CC7227A75A24009706B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EF8CC7627A75A24009706B1 /* PBXTargetDependency */,
+			);
+			name = "Multiply Speedrun 3UITests";
+			productName = "Multiply Speedrun 3UITests";
+			productReference = 8EF8CC7427A75A24009706B1 /* Multiply Speedrun 3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EF8CC5227A75A23009706B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8EF8CC5927A75A23009706B1 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8EF8CC6927A75A24009706B1 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8EF8CC5927A75A23009706B1;
+					};
+					8EF8CC7327A75A24009706B1 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8EF8CC5927A75A23009706B1;
+					};
+				};
+			};
+			buildConfigurationList = 8EF8CC5527A75A23009706B1 /* Build configuration list for PBXProject "Multiply Speedrun 3" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EF8CC5127A75A23009706B1;
+			productRefGroup = 8EF8CC5B27A75A23009706B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EF8CC5927A75A23009706B1 /* Multiply Speedrun 3 */,
+				8EF8CC6927A75A24009706B1 /* Multiply Speedrun 3Tests */,
+				8EF8CC7327A75A24009706B1 /* Multiply Speedrun 3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EF8CC5827A75A23009706B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF8CC6527A75A24009706B1 /* Preview Assets.xcassets in Resources */,
+				8EF8CC6227A75A24009706B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF8CC6827A75A24009706B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF8CC7227A75A24009706B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EF8CC5627A75A23009706B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF8CC9F27A75D33009706B1 /* SummaryView.swift in Sources */,
+				8EF8CC8F27A75BCC009706B1 /* ViewConstants.swift in Sources */,
+				8EF8CC9727A75C96009706B1 /* MainView.swift in Sources */,
+				8EF8CCA127A75D60009706B1 /* TitleView.swift in Sources */,
+				8E6E2A7327A970440009DCE1 /* ResetButtonView.swift in Sources */,
+				8EF8CC9B27A75D03009706B1 /* ResultView.swift in Sources */,
+				8EF8CC9127A75C2C009706B1 /* AllButtonStyle.swift in Sources */,
+				8EF8CC6027A75A23009706B1 /* ContentView.swift in Sources */,
+				8EF8CCA327A75EC8009706B1 /* PreferenceModel.swift in Sources */,
+				8EF8CC9D27A75D18009706B1 /* ScoreView.swift in Sources */,
+				8EF8CC9927A75CE8009706B1 /* ProblemView.swift in Sources */,
+				8EF8CC9327A75C53009706B1 /* ChoiceView.swift in Sources */,
+				8EF8CCA527A77E5E009706B1 /* PreferenceButtonView.swift in Sources */,
+				8EF8CC8D27A75B88009706B1 /* GameManager.swift in Sources */,
+				8EF8CC5E27A75A23009706B1 /* Multiply_Speedrun_3App.swift in Sources */,
+				8EF8CC9527A75C76009706B1 /* GameView.swift in Sources */,
+				8EF8CCA727A77EAF009706B1 /* PreferenceView.swift in Sources */,
+				8EF8CC8B27A75B54009706B1 /* ArithmeticModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF8CC6627A75A24009706B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF8CC6F27A75A24009706B1 /* Multiply_Speedrun_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF8CC7027A75A24009706B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF8CC7B27A75A24009706B1 /* Multiply_Speedrun_3UITestsLaunchTests.swift in Sources */,
+				8EF8CC7927A75A24009706B1 /* Multiply_Speedrun_3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EF8CC6C27A75A24009706B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EF8CC5927A75A23009706B1 /* Multiply Speedrun 3 */;
+			targetProxy = 8EF8CC6B27A75A24009706B1 /* PBXContainerItemProxy */;
+		};
+		8EF8CC7627A75A24009706B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EF8CC5927A75A23009706B1 /* Multiply Speedrun 3 */;
+			targetProxy = 8EF8CC7527A75A24009706B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8EF8CC7C27A75A24009706B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EF8CC7D27A75A24009706B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EF8CC7F27A75A24009706B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Multiply Speedrun 3/Preview Content\"";
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.Multiply-Speedrun-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EF8CC8027A75A24009706B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Multiply Speedrun 3/Preview Content\"";
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.Multiply-Speedrun-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EF8CC8227A75A24009706B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.Multiply-Speedrun-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multiply Speedrun 3.app/Multiply Speedrun 3";
+			};
+			name = Debug;
+		};
+		8EF8CC8327A75A24009706B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.Multiply-Speedrun-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multiply Speedrun 3.app/Multiply Speedrun 3";
+			};
+			name = Release;
+		};
+		8EF8CC8527A75A24009706B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.Multiply-Speedrun-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Multiply Speedrun 3";
+			};
+			name = Debug;
+		};
+		8EF8CC8627A75A24009706B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.Multiply-Speedrun-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Multiply Speedrun 3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EF8CC5527A75A23009706B1 /* Build configuration list for PBXProject "Multiply Speedrun 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF8CC7C27A75A24009706B1 /* Debug */,
+				8EF8CC7D27A75A24009706B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EF8CC7E27A75A24009706B1 /* Build configuration list for PBXNativeTarget "Multiply Speedrun 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF8CC7F27A75A24009706B1 /* Debug */,
+				8EF8CC8027A75A24009706B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EF8CC8127A75A24009706B1 /* Build configuration list for PBXNativeTarget "Multiply Speedrun 3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF8CC8227A75A24009706B1 /* Debug */,
+				8EF8CC8327A75A24009706B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EF8CC8427A75A24009706B1 /* Build configuration list for PBXNativeTarget "Multiply Speedrun 3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF8CC8527A75A24009706B1 /* Debug */,
+				8EF8CC8627A75A24009706B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EF8CC5227A75A23009706B1 /* Project object */;
+}
