@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E45A2DC27E2774300E586EC /* ViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E45A2DB27E2774300E586EC /* ViewConstants.swift */; };
+		8E45A2DE27E27E8C00E586EC /* DefaultButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E45A2DD27E27E8C00E586EC /* DefaultButtonStyle.swift */; };
+		8E45A2E227E2853400E586EC /* FlipcardsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E45A2E127E2853400E586EC /* FlipcardsListView.swift */; };
+		8E45A2E427E372B700E586EC /* morse.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E45A2E327E372B700E586EC /* morse.json */; };
+		8E45A2E627E373F200E586EC /* MorseCodeDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E45A2E527E373F200E586EC /* MorseCodeDecoder.swift */; };
+		8E632AB827E0D9B7004C6EEB /* Learn_MorseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E632AB727E0D9B7004C6EEB /* Learn_MorseApp.swift */; };
+		8E632ABA27E0D9B7004C6EEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E632AB927E0D9B7004C6EEB /* ContentView.swift */; };
+		8E632ABC27E0D9BA004C6EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E632ABB27E0D9BA004C6EEB /* Assets.xcassets */; };
+		8E632ABF27E0D9BA004C6EEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E632ABE27E0D9BA004C6EEB /* Preview Assets.xcassets */; };
+		8E632AC927E0D9BA004C6EEB /* Learn_MorseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E632AC827E0D9BA004C6EEB /* Learn_MorseTests.swift */; };
+		8E632AD327E0D9BA004C6EEB /* Learn_MorseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E632AD227E0D9BA004C6EEB /* Learn_MorseUITests.swift */; };
+		8E632AD527E0D9BA004C6EEB /* Learn_MorseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E632AD427E0D9BA004C6EEB /* Learn_MorseUITestsLaunchTests.swift */; };
+		8E632AE927E0DB8D004C6EEB /* TranslationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E632AE827E0DB8C004C6EEB /* TranslationManager.swift */; };
+		8E632AED27E0E031004C6EEB /* FlipcardsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E632AEC27E0E031004C6EEB /* FlipcardsDetailView.swift */; };
+		8E632AEF27E0E2BE004C6EEB /* FlipImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E632AEE27E0E2BE004C6EEB /* FlipImage.swift */; };
+		8E632AF227E2754E004C6EEB /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E632AF127E2754E004C6EEB /* GameManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E632AC527E0D9BA004C6EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E632AAC27E0D9B7004C6EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E632AB327E0D9B7004C6EEB;
+			remoteInfo = "Learn Morse";
+		};
+		8E632ACF27E0D9BA004C6EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E632AAC27E0D9B7004C6EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E632AB327E0D9B7004C6EEB;
+			remoteInfo = "Learn Morse";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E45A2DB27E2774300E586EC /* ViewConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConstants.swift; sourceTree = "<group>"; };
+		8E45A2DD27E27E8C00E586EC /* DefaultButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButtonStyle.swift; sourceTree = "<group>"; };
+		8E45A2E127E2853400E586EC /* FlipcardsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipcardsListView.swift; sourceTree = "<group>"; };
+		8E45A2E327E372B700E586EC /* morse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = morse.json; sourceTree = "<group>"; };
+		8E45A2E527E373F200E586EC /* MorseCodeDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseCodeDecoder.swift; sourceTree = "<group>"; };
+		8E632AB427E0D9B7004C6EEB /* Learn Morse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn Morse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E632AB727E0D9B7004C6EEB /* Learn_MorseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn_MorseApp.swift; sourceTree = "<group>"; };
+		8E632AB927E0D9B7004C6EEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E632ABB27E0D9BA004C6EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E632ABE27E0D9BA004C6EEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E632AC427E0D9BA004C6EEB /* Learn MorseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learn MorseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E632AC827E0D9BA004C6EEB /* Learn_MorseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn_MorseTests.swift; sourceTree = "<group>"; };
+		8E632ACE27E0D9BA004C6EEB /* Learn MorseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learn MorseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E632AD227E0D9BA004C6EEB /* Learn_MorseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn_MorseUITests.swift; sourceTree = "<group>"; };
+		8E632AD427E0D9BA004C6EEB /* Learn_MorseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn_MorseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E632AE827E0DB8C004C6EEB /* TranslationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationManager.swift; sourceTree = "<group>"; };
+		8E632AEC27E0E031004C6EEB /* FlipcardsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipcardsDetailView.swift; sourceTree = "<group>"; };
+		8E632AEE27E0E2BE004C6EEB /* FlipImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipImage.swift; sourceTree = "<group>"; };
+		8E632AF127E2754E004C6EEB /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E632AB127E0D9B7004C6EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E632AC127E0D9BA004C6EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E632ACB27E0D9BA004C6EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E45A2DF27E282C000E586EC /* Study Mode */ = {
+			isa = PBXGroup;
+			children = (
+				8E632AEE27E0E2BE004C6EEB /* FlipImage.swift */,
+				8E632AEC27E0E031004C6EEB /* FlipcardsDetailView.swift */,
+				8E45A2E127E2853400E586EC /* FlipcardsListView.swift */,
+			);
+			path = "Study Mode";
+			sourceTree = "<group>";
+		};
+		8E45A2E027E282C900E586EC /* Decoder Mode */ = {
+			isa = PBXGroup;
+			children = (
+				8E45A2E527E373F200E586EC /* MorseCodeDecoder.swift */,
+			);
+			path = "Decoder Mode";
+			sourceTree = "<group>";
+		};
+		8E632AAB27E0D9B7004C6EEB = {
+			isa = PBXGroup;
+			children = (
+				8E632AB627E0D9B7004C6EEB /* Learn Morse */,
+				8E632AC727E0D9BA004C6EEB /* Learn MorseTests */,
+				8E632AD127E0D9BA004C6EEB /* Learn MorseUITests */,
+				8E632AB527E0D9B7004C6EEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E632AB527E0D9B7004C6EEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E632AB427E0D9B7004C6EEB /* Learn Morse.app */,
+				8E632AC427E0D9BA004C6EEB /* Learn MorseTests.xctest */,
+				8E632ACE27E0D9BA004C6EEB /* Learn MorseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E632AB627E0D9B7004C6EEB /* Learn Morse */ = {
+			isa = PBXGroup;
+			children = (
+				8E632AF027E0E40C004C6EEB /* Views */,
+				8E632AE227E0DA1C004C6EEB /* Models */,
+				8E632AE127E0DA0A004C6EEB /* View Models */,
+				8E632AB727E0D9B7004C6EEB /* Learn_MorseApp.swift */,
+				8E632ABB27E0D9BA004C6EEB /* Assets.xcassets */,
+				8E632ABD27E0D9BA004C6EEB /* Preview Content */,
+			);
+			path = "Learn Morse";
+			sourceTree = "<group>";
+		};
+		8E632ABD27E0D9BA004C6EEB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E632ABE27E0D9BA004C6EEB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E632AC727E0D9BA004C6EEB /* Learn MorseTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E632AC827E0D9BA004C6EEB /* Learn_MorseTests.swift */,
+			);
+			path = "Learn MorseTests";
+			sourceTree = "<group>";
+		};
+		8E632AD127E0D9BA004C6EEB /* Learn MorseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E632AD227E0D9BA004C6EEB /* Learn_MorseUITests.swift */,
+				8E632AD427E0D9BA004C6EEB /* Learn_MorseUITestsLaunchTests.swift */,
+			);
+			path = "Learn MorseUITests";
+			sourceTree = "<group>";
+		};
+		8E632AE127E0DA0A004C6EEB /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E632AF127E2754E004C6EEB /* GameManager.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		8E632AE227E0DA1C004C6EEB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E45A2E327E372B700E586EC /* morse.json */,
+				8E632AE827E0DB8C004C6EEB /* TranslationManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E632AF027E0E40C004C6EEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E45A2E027E282C900E586EC /* Decoder Mode */,
+				8E45A2DF27E282C000E586EC /* Study Mode */,
+				8E632AB927E0D9B7004C6EEB /* ContentView.swift */,
+				8E45A2DB27E2774300E586EC /* ViewConstants.swift */,
+				8E45A2DD27E27E8C00E586EC /* DefaultButtonStyle.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E632AB327E0D9B7004C6EEB /* Learn Morse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E632AD827E0D9BA004C6EEB /* Build configuration list for PBXNativeTarget "Learn Morse" */;
+			buildPhases = (
+				8E632AB027E0D9B7004C6EEB /* Sources */,
+				8E632AB127E0D9B7004C6EEB /* Frameworks */,
+				8E632AB227E0D9B7004C6EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Learn Morse";
+			productName = "Learn Morse";
+			productReference = 8E632AB427E0D9B7004C6EEB /* Learn Morse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E632AC327E0D9BA004C6EEB /* Learn MorseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E632ADB27E0D9BA004C6EEB /* Build configuration list for PBXNativeTarget "Learn MorseTests" */;
+			buildPhases = (
+				8E632AC027E0D9BA004C6EEB /* Sources */,
+				8E632AC127E0D9BA004C6EEB /* Frameworks */,
+				8E632AC227E0D9BA004C6EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E632AC627E0D9BA004C6EEB /* PBXTargetDependency */,
+			);
+			name = "Learn MorseTests";
+			productName = "Learn MorseTests";
+			productReference = 8E632AC427E0D9BA004C6EEB /* Learn MorseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E632ACD27E0D9BA004C6EEB /* Learn MorseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E632ADE27E0D9BA004C6EEB /* Build configuration list for PBXNativeTarget "Learn MorseUITests" */;
+			buildPhases = (
+				8E632ACA27E0D9BA004C6EEB /* Sources */,
+				8E632ACB27E0D9BA004C6EEB /* Frameworks */,
+				8E632ACC27E0D9BA004C6EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E632AD027E0D9BA004C6EEB /* PBXTargetDependency */,
+			);
+			name = "Learn MorseUITests";
+			productName = "Learn MorseUITests";
+			productReference = 8E632ACE27E0D9BA004C6EEB /* Learn MorseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E632AAC27E0D9B7004C6EEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8E632AB327E0D9B7004C6EEB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8E632AC327E0D9BA004C6EEB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8E632AB327E0D9B7004C6EEB;
+					};
+					8E632ACD27E0D9BA004C6EEB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8E632AB327E0D9B7004C6EEB;
+					};
+				};
+			};
+			buildConfigurationList = 8E632AAF27E0D9B7004C6EEB /* Build configuration list for PBXProject "Learn Morse" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E632AAB27E0D9B7004C6EEB;
+			productRefGroup = 8E632AB527E0D9B7004C6EEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E632AB327E0D9B7004C6EEB /* Learn Morse */,
+				8E632AC327E0D9BA004C6EEB /* Learn MorseTests */,
+				8E632ACD27E0D9BA004C6EEB /* Learn MorseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E632AB227E0D9B7004C6EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E632ABF27E0D9BA004C6EEB /* Preview Assets.xcassets in Resources */,
+				8E632ABC27E0D9BA004C6EEB /* Assets.xcassets in Resources */,
+				8E45A2E427E372B700E586EC /* morse.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E632AC227E0D9BA004C6EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E632ACC27E0D9BA004C6EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E632AB027E0D9B7004C6EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E632ABA27E0D9B7004C6EEB /* ContentView.swift in Sources */,
+				8E45A2DE27E27E8C00E586EC /* DefaultButtonStyle.swift in Sources */,
+				8E45A2E627E373F200E586EC /* MorseCodeDecoder.swift in Sources */,
+				8E632AEF27E0E2BE004C6EEB /* FlipImage.swift in Sources */,
+				8E632AF227E2754E004C6EEB /* GameManager.swift in Sources */,
+				8E632AED27E0E031004C6EEB /* FlipcardsDetailView.swift in Sources */,
+				8E632AE927E0DB8D004C6EEB /* TranslationManager.swift in Sources */,
+				8E45A2E227E2853400E586EC /* FlipcardsListView.swift in Sources */,
+				8E45A2DC27E2774300E586EC /* ViewConstants.swift in Sources */,
+				8E632AB827E0D9B7004C6EEB /* Learn_MorseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E632AC027E0D9BA004C6EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E632AC927E0D9BA004C6EEB /* Learn_MorseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E632ACA27E0D9BA004C6EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E632AD527E0D9BA004C6EEB /* Learn_MorseUITestsLaunchTests.swift in Sources */,
+				8E632AD327E0D9BA004C6EEB /* Learn_MorseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E632AC627E0D9BA004C6EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E632AB327E0D9B7004C6EEB /* Learn Morse */;
+			targetProxy = 8E632AC527E0D9BA004C6EEB /* PBXContainerItemProxy */;
+		};
+		8E632AD027E0D9BA004C6EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E632AB327E0D9B7004C6EEB /* Learn Morse */;
+			targetProxy = 8E632ACF27E0D9BA004C6EEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E632AD627E0D9BA004C6EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E632AD727E0D9BA004C6EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E632AD927E0D9BA004C6EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Learn Morse/Preview Content\"";
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.Learn-Morse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E632ADA27E0D9BA004C6EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Learn Morse/Preview Content\"";
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.Learn-Morse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E632ADC27E0D9BA004C6EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.Learn-MorseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learn Morse.app/Learn Morse";
+			};
+			name = Debug;
+		};
+		8E632ADD27E0D9BA004C6EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.Learn-MorseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learn Morse.app/Learn Morse";
+			};
+			name = Release;
+		};
+		8E632ADF27E0D9BA004C6EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.Learn-MorseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Learn Morse";
+			};
+			name = Debug;
+		};
+		8E632AE027E0D9BA004C6EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.Learn-MorseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Learn Morse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E632AAF27E0D9B7004C6EEB /* Build configuration list for PBXProject "Learn Morse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E632AD627E0D9BA004C6EEB /* Debug */,
+				8E632AD727E0D9BA004C6EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E632AD827E0D9BA004C6EEB /* Build configuration list for PBXNativeTarget "Learn Morse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E632AD927E0D9BA004C6EEB /* Debug */,
+				8E632ADA27E0D9BA004C6EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E632ADB27E0D9BA004C6EEB /* Build configuration list for PBXNativeTarget "Learn MorseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E632ADC27E0D9BA004C6EEB /* Debug */,
+				8E632ADD27E0D9BA004C6EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E632ADE27E0D9BA004C6EEB /* Build configuration list for PBXNativeTarget "Learn MorseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E632ADF27E0D9BA004C6EEB /* Debug */,
+				8E632AE027E0D9BA004C6EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E632AAC27E0D9B7004C6EEB /* Project object */;
+}

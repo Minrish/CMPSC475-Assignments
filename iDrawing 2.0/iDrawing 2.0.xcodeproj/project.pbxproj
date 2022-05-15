@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E2DC8D127E84DD100D64593 /* iDrawing_2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DC8D027E84DD100D64593 /* iDrawing_2_0App.swift */; };
+		8E2DC8D327E84DD100D64593 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DC8D227E84DD100D64593 /* ContentView.swift */; };
+		8E2DC8D527E84DD200D64593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2DC8D427E84DD200D64593 /* Assets.xcassets */; };
+		8E2DC8D827E84DD200D64593 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2DC8D727E84DD200D64593 /* Preview Assets.xcassets */; };
+		8E2DC8E227E84DD200D64593 /* iDrawing_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DC8E127E84DD200D64593 /* iDrawing_2_0Tests.swift */; };
+		8E2DC8EC27E84DD200D64593 /* iDrawing_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DC8EB27E84DD200D64593 /* iDrawing_2_0UITests.swift */; };
+		8E2DC8EE27E84DD200D64593 /* iDrawing_2_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DC8ED27E84DD200D64593 /* iDrawing_2_0UITestsLaunchTests.swift */; };
+		8E2DC8FE27E84E0D00D64593 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DC8FD27E84E0D00D64593 /* Shape.swift */; };
+		8E2DC90027E84E2800D64593 /* ArtboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DC8FF27E84E2800D64593 /* ArtboardManager.swift */; };
+		8E2DC90227E84E4D00D64593 /* ArtboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DC90127E84E4D00D64593 /* ArtboardView.swift */; };
+		8E2DC90C27ED686900D64593 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DC90B27ED686900D64593 /* CanvasView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E2DC8DE27E84DD200D64593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E2DC8C527E84DD100D64593 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E2DC8CC27E84DD100D64593;
+			remoteInfo = "iDrawing 2.0";
+		};
+		8E2DC8E827E84DD200D64593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E2DC8C527E84DD100D64593 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E2DC8CC27E84DD100D64593;
+			remoteInfo = "iDrawing 2.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E2DC8CD27E84DD100D64593 /* iDrawing 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iDrawing 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2DC8D027E84DD100D64593 /* iDrawing_2_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDrawing_2_0App.swift; sourceTree = "<group>"; };
+		8E2DC8D227E84DD100D64593 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E2DC8D427E84DD200D64593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E2DC8D727E84DD200D64593 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E2DC8DD27E84DD200D64593 /* iDrawing 2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iDrawing 2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2DC8E127E84DD200D64593 /* iDrawing_2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDrawing_2_0Tests.swift; sourceTree = "<group>"; };
+		8E2DC8E727E84DD200D64593 /* iDrawing 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iDrawing 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2DC8EB27E84DD200D64593 /* iDrawing_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDrawing_2_0UITests.swift; sourceTree = "<group>"; };
+		8E2DC8ED27E84DD200D64593 /* iDrawing_2_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDrawing_2_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E2DC8FD27E84E0D00D64593 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		8E2DC8FF27E84E2800D64593 /* ArtboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtboardManager.swift; sourceTree = "<group>"; };
+		8E2DC90127E84E4D00D64593 /* ArtboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtboardView.swift; sourceTree = "<group>"; };
+		8E2DC90B27ED686900D64593 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E2DC8CA27E84DD100D64593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2DC8DA27E84DD200D64593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2DC8E427E84DD200D64593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E2DC8C427E84DD100D64593 = {
+			isa = PBXGroup;
+			children = (
+				8E2DC8CF27E84DD100D64593 /* iDrawing 2.0 */,
+				8E2DC8E027E84DD200D64593 /* iDrawing 2.0Tests */,
+				8E2DC8EA27E84DD200D64593 /* iDrawing 2.0UITests */,
+				8E2DC8CE27E84DD100D64593 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E2DC8CE27E84DD100D64593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E2DC8CD27E84DD100D64593 /* iDrawing 2.0.app */,
+				8E2DC8DD27E84DD200D64593 /* iDrawing 2.0Tests.xctest */,
+				8E2DC8E727E84DD200D64593 /* iDrawing 2.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E2DC8CF27E84DD100D64593 /* iDrawing 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				8E2DC8FC27E84DEC00D64593 /* Views */,
+				8E2DC8FB27E84DE600D64593 /* View Models */,
+				8E2DC8FA27E84DE100D64593 /* Models */,
+				8E2DC8D027E84DD100D64593 /* iDrawing_2_0App.swift */,
+				8E2DC8D427E84DD200D64593 /* Assets.xcassets */,
+				8E2DC8D627E84DD200D64593 /* Preview Content */,
+			);
+			path = "iDrawing 2.0";
+			sourceTree = "<group>";
+		};
+		8E2DC8D627E84DD200D64593 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E2DC8D727E84DD200D64593 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E2DC8E027E84DD200D64593 /* iDrawing 2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8E2DC8E127E84DD200D64593 /* iDrawing_2_0Tests.swift */,
+			);
+			path = "iDrawing 2.0Tests";
+			sourceTree = "<group>";
+		};
+		8E2DC8EA27E84DD200D64593 /* iDrawing 2.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E2DC8EB27E84DD200D64593 /* iDrawing_2_0UITests.swift */,
+				8E2DC8ED27E84DD200D64593 /* iDrawing_2_0UITestsLaunchTests.swift */,
+			);
+			path = "iDrawing 2.0UITests";
+			sourceTree = "<group>";
+		};
+		8E2DC8FA27E84DE100D64593 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E2DC8FD27E84E0D00D64593 /* Shape.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E2DC8FB27E84DE600D64593 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E2DC8FF27E84E2800D64593 /* ArtboardManager.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		8E2DC8FC27E84DEC00D64593 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E2DC8D227E84DD100D64593 /* ContentView.swift */,
+				8E2DC90127E84E4D00D64593 /* ArtboardView.swift */,
+				8E2DC90B27ED686900D64593 /* CanvasView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E2DC8CC27E84DD100D64593 /* iDrawing 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E2DC8F127E84DD200D64593 /* Build configuration list for PBXNativeTarget "iDrawing 2.0" */;
+			buildPhases = (
+				8E2DC8C927E84DD100D64593 /* Sources */,
+				8E2DC8CA27E84DD100D64593 /* Frameworks */,
+				8E2DC8CB27E84DD100D64593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iDrawing 2.0";
+			productName = "iDrawing 2.0";
+			productReference = 8E2DC8CD27E84DD100D64593 /* iDrawing 2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E2DC8DC27E84DD200D64593 /* iDrawing 2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E2DC8F427E84DD200D64593 /* Build configuration list for PBXNativeTarget "iDrawing 2.0Tests" */;
+			buildPhases = (
+				8E2DC8D927E84DD200D64593 /* Sources */,
+				8E2DC8DA27E84DD200D64593 /* Frameworks */,
+				8E2DC8DB27E84DD200D64593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E2DC8DF27E84DD200D64593 /* PBXTargetDependency */,
+			);
+			name = "iDrawing 2.0Tests";
+			productName = "iDrawing 2.0Tests";
+			productReference = 8E2DC8DD27E84DD200D64593 /* iDrawing 2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E2DC8E627E84DD200D64593 /* iDrawing 2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E2DC8F727E84DD200D64593 /* Build configuration list for PBXNativeTarget "iDrawing 2.0UITests" */;
+			buildPhases = (
+				8E2DC8E327E84DD200D64593 /* Sources */,
+				8E2DC8E427E84DD200D64593 /* Frameworks */,
+				8E2DC8E527E84DD200D64593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E2DC8E927E84DD200D64593 /* PBXTargetDependency */,
+			);
+			name = "iDrawing 2.0UITests";
+			productName = "iDrawing 2.0UITests";
+			productReference = 8E2DC8E727E84DD200D64593 /* iDrawing 2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E2DC8C527E84DD100D64593 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					8E2DC8CC27E84DD100D64593 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					8E2DC8DC27E84DD200D64593 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 8E2DC8CC27E84DD100D64593;
+					};
+					8E2DC8E627E84DD200D64593 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 8E2DC8CC27E84DD100D64593;
+					};
+				};
+			};
+			buildConfigurationList = 8E2DC8C827E84DD100D64593 /* Build configuration list for PBXProject "iDrawing 2.0" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E2DC8C427E84DD100D64593;
+			productRefGroup = 8E2DC8CE27E84DD100D64593 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E2DC8CC27E84DD100D64593 /* iDrawing 2.0 */,
+				8E2DC8DC27E84DD200D64593 /* iDrawing 2.0Tests */,
+				8E2DC8E627E84DD200D64593 /* iDrawing 2.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E2DC8CB27E84DD100D64593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2DC8D827E84DD200D64593 /* Preview Assets.xcassets in Resources */,
+				8E2DC8D527E84DD200D64593 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2DC8DB27E84DD200D64593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2DC8E527E84DD200D64593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E2DC8C927E84DD100D64593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2DC8D327E84DD100D64593 /* ContentView.swift in Sources */,
+				8E2DC90227E84E4D00D64593 /* ArtboardView.swift in Sources */,
+				8E2DC90C27ED686900D64593 /* CanvasView.swift in Sources */,
+				8E2DC8FE27E84E0D00D64593 /* Shape.swift in Sources */,
+				8E2DC90027E84E2800D64593 /* ArtboardManager.swift in Sources */,
+				8E2DC8D127E84DD100D64593 /* iDrawing_2_0App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2DC8D927E84DD200D64593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2DC8E227E84DD200D64593 /* iDrawing_2_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2DC8E327E84DD200D64593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2DC8EC27E84DD200D64593 /* iDrawing_2_0UITests.swift in Sources */,
+				8E2DC8EE27E84DD200D64593 /* iDrawing_2_0UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E2DC8DF27E84DD200D64593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E2DC8CC27E84DD100D64593 /* iDrawing 2.0 */;
+			targetProxy = 8E2DC8DE27E84DD200D64593 /* PBXContainerItemProxy */;
+		};
+		8E2DC8E927E84DD200D64593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E2DC8CC27E84DD100D64593 /* iDrawing 2.0 */;
+			targetProxy = 8E2DC8E827E84DD200D64593 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E2DC8EF27E84DD200D64593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E2DC8F027E84DD200D64593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E2DC8F227E84DD200D64593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iDrawing 2.0/Preview Content\"";
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.iDrawing-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E2DC8F327E84DD200D64593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iDrawing 2.0/Preview Content\"";
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.iDrawing-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E2DC8F527E84DD200D64593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.iDrawing-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iDrawing 2.0.app/iDrawing 2.0";
+			};
+			name = Debug;
+		};
+		8E2DC8F627E84DD200D64593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.iDrawing-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iDrawing 2.0.app/iDrawing 2.0";
+			};
+			name = Release;
+		};
+		8E2DC8F827E84DD200D64593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.iDrawing-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iDrawing 2.0";
+			};
+			name = Debug;
+		};
+		8E2DC8F927E84DD200D64593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A42JR33J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.bxy5090.iDrawing-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iDrawing 2.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E2DC8C827E84DD100D64593 /* Build configuration list for PBXProject "iDrawing 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2DC8EF27E84DD200D64593 /* Debug */,
+				8E2DC8F027E84DD200D64593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E2DC8F127E84DD200D64593 /* Build configuration list for PBXNativeTarget "iDrawing 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2DC8F227E84DD200D64593 /* Debug */,
+				8E2DC8F327E84DD200D64593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E2DC8F427E84DD200D64593 /* Build configuration list for PBXNativeTarget "iDrawing 2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2DC8F527E84DD200D64593 /* Debug */,
+				8E2DC8F627E84DD200D64593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E2DC8F727E84DD200D64593 /* Build configuration list for PBXNativeTarget "iDrawing 2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2DC8F827E84DD200D64593 /* Debug */,
+				8E2DC8F927E84DD200D64593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E2DC8C527E84DD100D64593 /* Project object */;
+}
